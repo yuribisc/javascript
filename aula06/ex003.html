@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex002</title>
+</head>
+<body>
+    <h1>Titulo 1</h1>
+    <p>texto de paragrafo</p>
+
+    <script>
+
+        //alerta com campo de texto
+        var n1 = Number.parseInt(window.prompt('Digite um número'))
+        var n2 = Number.parseInt(window.prompt('Digite outro número'))
+        var s = n1 + n2
+
+        // + para concatenação ou pra adição
+        window.alert(`A soma entre ${n1} e ${n2} é ${s}`)
+        // pra somar corretamente precisa ser number + number
+        // quando for string + string, ele vai entender como concatenação (por causa do prompt)
+
+        // para converter para numero, pode-se adicionar o "Number.parseInt()"
+
+        // para converter para numero considerando DECIMAL, usar o "Number.parseFloat()"
+
+        // também é possivel usar somente o "Number". Nesse caso o js decide como irá apresentar
+
+    </script>
+</body>
+</html>
